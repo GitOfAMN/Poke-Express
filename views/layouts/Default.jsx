@@ -11,10 +11,10 @@ class Default extends React.Component {
                 </head>
                 <body>
                     <nav>
-                        <a href="/pokemons">Go to Home Page For Pokemon</a>
-                        <a href="/pokemons/new">Create a New Pokemon</a>
-                        { pokemon? <a href={`/pokemons/${pokemon._id}/edit`}> {pokemon.name} Edit Page </a> : ''}
-                        { pokemon? <a href={`/pokemons/${pokemon._id}`}>{pokemon.name} Show Page</a> : ''}
+                        <a href="/pokemon">Go to Home Page For Pokemon</a>
+                        <a href="/pokemon/new">Create a New Pokemon</a>
+                        { pokemon? <a href={`/pokemon/${pokemon._id}/edit`}> {pokemon.name} Edit Page </a> : ''}
+                        { pokemon? <a href={`/pokemon/${pokemon._id}`}>{pokemon.name} Show Page</a> : ''}
                     </nav>
                     <h1>
                         {title}

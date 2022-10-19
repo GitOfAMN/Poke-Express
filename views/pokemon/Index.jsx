@@ -13,17 +13,17 @@ class Index extends React.Component{
                             const {name, nature, readyToFight, _id} = pokemon
                             return (
                                 <li key={_id}>
-                                    <a href={`/pokemons/${_id}`}>
-                                    {name}</a> is {nature}
+                                    <a href={`/pokemon/${_id}`}>
+                                    {name}</a> is of {nature} nature and
                                     
                                      <br/>
                                     {
                                         readyToFight? 
-                                        'It\'s ready to fight':
-                                        'It\'s not ready to fight'
+                                        'is ready to fight':
+                                        'is not ready to fight'
                                     }
                                     <br/>
-                                    <form method="POST" action={`/pokemons/${_id}?_method=DELETE`}>
+                                    <form method="POST" action={`/pokemon/${_id}?_method=DELETE`}>
                                         <input type="submit" value={`Delete ${nature} ${name}`}/>
                                     </form>
                                 </li>

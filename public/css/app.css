@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Righteous');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
 
 body {
   background: url(https://i.imgur.com/1VXmsbE.jpg);
   margin: 0;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Staatliches', cursive;
+  text-align: center;
 }
 
 h1 {
-  font-family: 'Righteous', cursive;
+  font-family: 'Faster One', cursive;
   background: white;
   margin:0;
   margin-bottom: .5em;
   padding: 1em;
-  text-align: center;
 }
 
 a {
@@ -21,6 +21,9 @@ a {
   text-shadow: 1px 1px 1px black;
   font-size: 1.5em;
   text-align: center;
+  margin: 10px;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 a:hover {

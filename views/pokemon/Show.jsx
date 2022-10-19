@@ -8,7 +8,7 @@ class Show extends React.Component {
         const capName = name[0].toUpperCase() + name.substring(1)
         return (
             <Default title={`${capName} Show Page`} pokemon={this.props.pokemon}>
-                <p>{capName} is {nature} a {readyToFight ? 'it\'s ready to fight' : 'it\'s not ready to fight'}</p>
+                <p>{capName} is of {nature} nature and {readyToFight ? 'is ready to fight' : 'is not ready to fight'}</p>
                 {img ? <img src={img} /> : ""}
             </Default>
         )

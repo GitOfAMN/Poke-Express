@@ -31,7 +31,7 @@ mongoose.connection.once('open', () => {
 /*Start Middleware */
 app.use(methodOverride('_method'))
 app.use(express.static('public'))
-app.use('/pokemons', require('./controllers/routeController'))
+app.use('/pokemon', require('./controllers/routeController'))
 /* END Middleware */
 
 

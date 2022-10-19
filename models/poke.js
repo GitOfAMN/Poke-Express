@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 const pokeSchema = new mongoose.Schema({
     name: { type: String, require: true },
     nature: { type: String, required: true },
+    img: { type: String, require: true },
     readyToFight: Boolean
 })
 

@@ -1,4 +1,4 @@
-const RESOURCE_PATH = '/pokemons'
+const RESOURCE_PATH = '/pokemon'
 // ^^^ when you make a const that you don't ever want to change, put it in all CAPS.
 
 const viewController = {
